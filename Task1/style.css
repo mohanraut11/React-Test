@@ -1,0 +1,85 @@
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.section {
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: 0.3s ease-in-out;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info {
+    font-size: 14px;
+}
+
+.badge {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.console-output {
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f1f1f1;
+}
+
+.state-manager {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.state-item {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
